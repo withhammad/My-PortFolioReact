@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-PortFolioReact/static/css/main.7354dbb3.css",
-    "main.js": "/My-PortFolioReact/static/js/main.7b61fab6.js",
+    "main.css": "/My-PortFolioReact/static/css/main.59555f59.css",
+    "main.js": "/My-PortFolioReact/static/js/main.beeed741.js",
     "static/media/about04.png": "/My-PortFolioReact/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/My-PortFolioReact/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/My-PortFolioReact/static/media/about01.080509de05322b7aafda.png",
@@ -28,11 +28,11 @@
     "static/media/skype.png": "/My-PortFolioReact/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/My-PortFolioReact/index.html",
     "static/media/circle.svg": "/My-PortFolioReact/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.7354dbb3.css.map": "/My-PortFolioReact/static/css/main.7354dbb3.css.map",
-    "main.7b61fab6.js.map": "/My-PortFolioReact/static/js/main.7b61fab6.js.map"
+    "main.59555f59.css.map": "/My-PortFolioReact/static/css/main.59555f59.css.map",
+    "main.beeed741.js.map": "/My-PortFolioReact/static/js/main.beeed741.js.map"
   },
   "entrypoints": [
-    "static/css/main.7354dbb3.css",
-    "static/js/main.7b61fab6.js"
+    "static/css/main.59555f59.css",
+    "static/js/main.beeed741.js"
   ]
 }
