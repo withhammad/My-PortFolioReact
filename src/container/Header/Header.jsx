@@ -26,7 +26,8 @@ const Header = () => (
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
           <span>👋</span>
-          <div style={{ marginLeft: 20 }}>
+          <div style={{ marginLeft: 20 ,marginTop: 20
+          }}>
             <p className="p-text">Hello, I am</p>
             <h1 className="head-text">HAMMAD</h1>
           </div>
@@ -34,10 +35,12 @@ const Header = () => (
 
         <div className="tag-cmp app__flex">
           <p className="p-text">Software Developer</p>
-          <p className="p-text">Freelancer</p>
+          <p className="p-text">UI Designer</p>
+          <p className="p-text">Marketing Specialist</p>
         </div>
       </div>
     </motion.div>
+    
 
     <motion.div
       whileInView={{ opacity: [0, 1] }}
@@ -59,11 +62,25 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
+      
+      <div className="circle-cmp app__flex" >
+      <lottie-player 
+      src="https://assets3.lottiefiles.com/packages/lf20_498gmG.json"  
+      background="transparent"  speed="1"  
+       loop  autoplay></lottie-player>
         </div>
-      ))}
+        <div className="circle-cmp app__flex" >
+        <lottie-player 
+        src="https://assets1.lottiefiles.com/packages/lf20_ctaacxzb.json"  
+        background="transparent"  speed="1"    
+        loop  autoplay></lottie-player>
+        </div>
+        <div className="circle-cmp app__flex" >
+        <lottie-player 
+        src="https://assets1.lottiefiles.com/packages/lf20_kc4lctca.json"  
+        background="transparent"  speed="1"  
+         loop  autoplay></lottie-player>
+        </div>
     </motion.div>
   </div>
 );
