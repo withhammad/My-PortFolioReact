@@ -27,7 +27,7 @@ const About = () => {
   return (
     <>
   
-      <h2 className="head-text">About <span> HAMMAD</span> <br /> I means  <span>Good Business</span>
+      <h2 className="head-text">About <span> HAMMAD</span> <br /> I Focus on  <span>Good Business</span>
       </h2>
 
       <div className="app__profiles">
